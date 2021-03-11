@@ -13,10 +13,17 @@ test('1 returns 1', () => {
     expect(fizzbuzz(1)).toBe("1");
 });
 test('toto returns error', () => {
+<<<<<<< HEAD
     expect(fizzbuzz("toto")).toBe(undefined);
 });
 test('empty string returns error', () => {
     expect(fizzbuzz("")).toBe(undefined);
+=======
+    expect(fizzbuzz("toto")).toBe("error");
+});
+test('empty string returns error', () => {
+    expect(fizzbuzz("")).toBe("error");
+>>>>>>> b37c624cd4ca5cb914289ad35db7c340f6713118
 });
 test('-10 returns error', () => {
     expect(fizzbuzz(-10)).toBe("error");

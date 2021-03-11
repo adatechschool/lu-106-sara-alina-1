@@ -1,4 +1,5 @@
 function fizzbuzz(number){
+<<<<<<< HEAD
         if(!(typeof number === "number")){
             return undefined
         }     
@@ -13,11 +14,26 @@ function fizzbuzz(number){
        }
        else if (number %5 == 0){
            return "buzz"
+=======
+   while (number >= 0 && number < 101){
+       if (number %3 == 0 && number %5 != 0){
+           return "fizz"
+       }
+       if (number %5 == 0 && number %3 != 0){
+        return "buzz"
+        }
+       if (number %3 == 0 && number %5 == 0){
+        return "fizzbuzz"
+>>>>>>> b37c624cd4ca5cb914289ad35db7c340f6713118
         }
         else {
             return number.toString()
         }
+<<<<<<< HEAD
    
+=======
+   }
+>>>>>>> b37c624cd4ca5cb914289ad35db7c340f6713118
 }
 
      

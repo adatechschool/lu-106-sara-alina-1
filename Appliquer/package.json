@@ -7,8 +7,12 @@
     "test": "jest"
   },
   "author": "",
+<<<<<<< HEAD
   "license": "ISC",
   "devDependencies": {
     "jest": "^26.6.3"
   }
+=======
+  "license": "ISC"
+>>>>>>> b37c624cd4ca5cb914289ad35db7c340f6713118
 }
